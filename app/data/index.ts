@@ -74,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Real Time Chat Application",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -207,14 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "",
+    link: "https://github.com/zainsaleem022",
   },
   {
     id: 2,
     img: "/twit.svg",
+    // link: "https://github.com/zainsaleem022",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/zain-saleem-b052a024a/",
   },
 ];
