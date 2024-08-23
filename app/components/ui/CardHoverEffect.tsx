@@ -71,7 +71,7 @@ export const HoverEffect = ({
                     key={i}
                     src={icon}
                     alt={`icon-${i}`}
-                    className="w-6 h-6"
+                    className="w-10 h-10"
                   />
                 ))}
               </div>

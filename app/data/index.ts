@@ -74,35 +74,52 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Real Time Chat Application",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.youtube.com/",
+    title: "WhatsUp - Real Time Chat Application",
+    des: "Built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring secure JWT authentication and a responsive design using Chakra UI. It leverages Socket.io for instant messaging, includes features like typing indicators, and offers a modern, intuitive user interface.",
+    img: "chat_app.png",
+    iconLists: [
+      "/react.svg",
+      "/bootstrap.svg",
+      "/materialui.svg",
+      "/socket.svg",
+      "/nodejs.svg",
+      "/mongodb.svg",
+    ],
+    link: "https://whatsup-kxff.onrender.com/",
+    github_link: "https://github.com/zainsaleem022/Real-Time-Chat-App-MERN",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "FYP Management System",
+    des: "It is a comprehensive project developed using .NET Web Forms and MS SQL Server, designed to efficiently manage Final Year Project (FYP) details and groups. Accessible by four distinct roles students, committee members, panel members, and supervisors the system offers tailored interfaces for each role. Users can register, log in, and utilize the platform to assign supervisors and panels to FYPs. Furthermore, panels can provide feedback, evaluate, and grade FYPs, streamlining the entire FYP management process with precision and ease of use.",
+    img: "/fypms1.png",
+    iconLists: ["/dotnet.svg", "/sqlserver.svg"],
+    link: "https://github.com/zainsaleem022/FYP_Management_System",
+    github_link: "https://github.com/zainsaleem022/FYP_Management_System",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "EduSync - Online Class Management System",
+    des: "Developed an online classroom management system using Java, FXML, and MySQL. Facilitated communication among parents, students, and teachers, enabling teachers to post assignments and announcements, and students to view, interact, and upload solutions.",
+    img: "/edu.png",
+    iconLists: ["/java.svg", "/mysql.svg"],
+    link: "https://github.com/zainsaleem022/EduSync",
+    github_link: "https://github.com/zainsaleem022/EduSync",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "BFit - Workout Tracking Fitness Website",
+    des: "This is a comprehensive fitness website built using the MERN stack (MongoDB, Express.js, React, Node.js) to help users set, track, and achieve their exercise goals. Users can set their weekly exercise goals, log their daily workouts, and monitor their progress through an intuitive interface. The platform features an extensive exercise library, allowing users to explore various exercises and mark their favorites for easy access.",
+    img: "/bfit.png",
+    iconLists: [
+      "/react.svg",
+      "/bootstrap.svg",
+      "/materialui.svg",
+      "/nodejs.svg",
+      "/mongodb.svg",
+    ],
+    link: "https://github.com/zainsaleem022/Fitness-Website",
+    github_link: "https://github.com/zainsaleem022/Fitness-Website",
   },
 ];
 
@@ -175,32 +192,44 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Development Intern @ -> Zigron [On-site]",
+    desc: [
+      "Assisted in the development of web-based platforms using MERN Stack, MEAN Stack, and Next.js.",
+      "Enhanced interactivity and optimizations across various applications.",
+      "Worked with technologies like Redis, GraphQL, JWT, and OAuth Authentications.",
+      "Developed scalable APIs using Node.js and reverse proxy servers like NGINX.",
+      "Dockerized and deployed websites on AWS EC2 and Vercel.",
+    ],
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "MERN Stack Development Intern @ -> CodeAlpha [Remote]",
+    desc: [
+      "Got a strong grip on full stack development using MERN stack by developing basic web app like a todo list manager to developing advanced real time chat application using Scockets",
+    ],
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: [
+  //     "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   ],
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: [
+  //     "Developed and maintained user-facing features using modern frontend technologies.",
+  //   ],
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
 export const socialMedia = [
