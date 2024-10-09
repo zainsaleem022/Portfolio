@@ -71,13 +71,18 @@ export const BentoGridItem = ({
 
   const skillsListThree = [
     "Mocha",
-    "C++",
     "Python",
-    "C#",
-    ".NET",
-    "Java",
-    "SpringBoot",
+    "Selenium",
+    "Puppeteer",
+    "Website Automation Bots",
+    "Chrome Extensions",
+    // "C#",
+    // ".NET",
+    // "Java",
+    // "SpringBoot",
   ];
+
+  // const skillsListFour = [];
 
   const [copied, setCopied] = useState(false);
 
